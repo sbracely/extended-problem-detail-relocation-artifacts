@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.github.sbracely</groupId>
+        <artifactId>extended-problem-detail-relocation-artifacts</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <groupId>io.github.sbracely</groupId>
+    <artifactId>extended-problem-detail-spring-boot-starter-webflux</artifactId>
+    <version>1.0.1</version>
+    <packaging>pom</packaging>
+
+    <name>Extended Problem Detail Starter for WebFlux (Relocated)</name>
+    <description>Relocation POM for extended-problem-detail-spring-boot-starter-webflux.</description>
+    <url>https://github.com/sbracely/extended-problem-detail</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>sbrace</name>
+            <email>sbrace0822@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/sbracely/extended-problem-detail.git</connection>
+        <developerConnection>scm:git:git@github.com:sbracely/extended-problem-detail.git</developerConnection>
+        <url>https://github.com/sbracely/extended-problem-detail</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
+    <distributionManagement>
+        <relocation>
+            <groupId>io.github.sbracely</groupId>
+            <artifactId>extended-problem-detail-webflux-spring-boot-starter</artifactId>
+            <version>1.0.1</version>
+            <message>Artifact moved to io.github.sbracely:extended-problem-detail-webflux-spring-boot-starter</message>
+        </relocation>
+    </distributionManagement>
+</project>
