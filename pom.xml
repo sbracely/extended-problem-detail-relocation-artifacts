@@ -6,12 +6,12 @@
 
     <groupId>io.github.sbracely</groupId>
     <artifactId>extended-problem-detail-relocation-artifacts</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
 
     <name>Extended Problem Detail Relocation Artifacts</name>
-    <description>Relocation POMs for renamed Extended Problem Detail artifacts.</description>
-    <url>https://github.com/sbracely/extended-problem-detail</url>
+    <description>Relocation POMs for renamed and Boot-version-split Extended Problem Detail artifacts.</description>
+    <url>https://github.com/sbracely/extended-problem-detail-relocation-artifacts</url>
 
     <licenses>
         <license>
@@ -28,9 +28,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/sbracely/extended-problem-detail.git</connection>
-        <developerConnection>scm:git:git@github.com:sbracely/extended-problem-detail.git</developerConnection>
-        <url>https://github.com/sbracely/extended-problem-detail</url>
+        <connection>scm:git:https://github.com/sbracely/extended-problem-detail-relocation-artifacts.git</connection>
+        <developerConnection>scm:git:git@github.com:sbracely/extended-problem-detail-relocation-artifacts.git</developerConnection>
+        <url>https://github.com/sbracely/extended-problem-detail-relocation-artifacts</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -39,11 +39,10 @@
     </properties>
 
     <modules>
-        <module>extended-problem-detail-core</module>
-        <module>extended-problem-detail-autoconfigure-webmvc</module>
-        <module>extended-problem-detail-autoconfigure-webflux</module>
-        <module>extended-problem-detail-spring-boot-starter-webmvc</module>
-        <module>extended-problem-detail-spring-boot-starter-webflux</module>
+        <module>extended-problem-detail-webmvc-autoconfigure</module>
+        <module>extended-problem-detail-webflux-autoconfigure</module>
+        <module>extended-problem-detail-webmvc-spring-boot-starter</module>
+        <module>extended-problem-detail-webflux-spring-boot-starter</module>
     </modules>
 
     <build>
